@@ -8,21 +8,26 @@ This package is still in development
 
 ### Requirements
 
-Neos >= 3.3
-
+Package | Version
+--- | ---
+Neos | \>=3.3
+Flow | \>=4.3
 ### Installing
 
 Install via composer
 
 `composer require woerz/codeprettify`
 
-You can overwrite and modify the different content elements to your needs:
-
-* `Woerz.CodePrettify:Code` - Show Code
+> Please note that you have to include jQuery into your sitepackage to make this plugin work.
 
 ## Settings
 
 *nothing yet*
+
+## Modify
+
+You can overwrite the different content elements to your needs:
+* `Woerz.CodePrettify:Code`
 
 ## Versioning
 
