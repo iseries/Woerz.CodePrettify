@@ -1,3 +1,34 @@
 {
-  "name": "test"
+  "name": "woerz/codeprettify",
+  "type": "neos-plugin",
+  "license": "Apache-2.0",
+  "description": "A neos package for making source-code snippets in HTML prettier",
+  "keywords": [
+    "flow",
+    "neos",
+    "prettify",
+    "code",
+    "syntaxhighlight"
+  ],
+  "authors": [
+    {
+      "name": "Rene Woerz",
+      "email": "hello@renewoerz.de",
+      "homepage": "https://renewoerz.de",
+      "role": "Web Developer"
+    }
+  ],
+  "require": {
+    "neos/neos": "~3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Woerz\\CodePrettify\\": "Classes"
+    }
+  },
+  "archive": {
+    "exclude": [
+      "preview.png"
+    ]
+  }
 }
