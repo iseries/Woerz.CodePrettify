@@ -1,0 +1,20 @@
+Woerz:
+  CodePrettify:
+    settings:
+      # default programming language
+      defaultLanguage: php
+      # include js and css files on every page, even when no CodePrettify is used
+      includeAlways: false
+      # Display debugging information in the console
+      debug: false
+
+Neos:
+  Neos:
+    userInterface:
+      translation:
+        autoInclude:
+          Woerz.CodePrettify:
+            - 'NodeTypes/*'
+    fusion:
+      autoInclude:
+        Woerz.CodePrettify: true

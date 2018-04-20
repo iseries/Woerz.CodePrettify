@@ -1,0 +1,4 @@
+prototype(Woerz.Prettify:Code) < prototype(Neos.Neos:Content) {
+    # get plugin settings
+    settings = ${Configuration.setting('Woerz.CodePrettify.settings')}
+}

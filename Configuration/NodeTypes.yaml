@@ -1,0 +1,7 @@
+'Woerz.CodePrettify:Code':
+  superTypes:
+    'Neos.Neos:Content': TRUE
+  ui:
+    label: i18n
+    icon: 'icon-code'
+    inlineEditable: TRUE
