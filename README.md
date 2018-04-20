@@ -10,8 +10,8 @@ This package is still in development
 
 Package | Version
 --- | ---
-Neos | \>=3.3
-Flow | \>=4.3
+neos/neos | \>=3.3
+neos/flow | \>=4.3
 ### Installing
 
 Install via composer
